@@ -15,7 +15,7 @@
 - **パチュリーPatchouli** 的东方微软拼音词库：转换为 Rime 格式，切分并规范拼音；作者 [B 站主页](https://space.bilibili.com/3493092321659700)，原说明保留于 [`readme.txt`](readme.txt)。
 - **[THBWiki](https://thwiki.cc/) 贡献者**：选取 2026-11-16 sitemap 快照中的汉字标题，经繁转简、有限清洗及注音生成，并非全站词汇导出。构建使用 [mw2fcitx](https://github.com/outloudvi/mw2fcitx)。
 
-合并按“完整词形＋拼音”去重，重复取较高权重，保留不同读音及间隔号写法。逐条来源和标题映射见 `th_mega_build/entry_sources.tsv`、`thbwiki_build/title_mapping.tsv`；原页面及编辑历史可在 THBWiki 按来源标题查阅。
+合并按“完整词形＋拼音”去重，重复取较高权重，保留不同读音及间隔号写法。原页面及编辑历史可在 THBWiki 按来源标题查阅。
 
 **部分读音由程序生成，未逐条人工校对。** 
 
